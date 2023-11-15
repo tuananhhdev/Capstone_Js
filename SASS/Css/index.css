@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000;
+}
+header .header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__logo img {
+  margin-left: 20px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+header .nav__cart i {
+  color: #fff;
+}
+header .nav__list ul {
+  display: flex;
+  margin: 10px;
+}
+header .nav__list ul li {
+  list-style: none;
+}
+header .nav__list li a {
+  color: #f6f6f6;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.banner {
+  margin-top: 15px;
+  background-image: url("./../../IMG/image\ 6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+.banner .banner__menu li a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 25px;
+}
+.banner .banner__menu ul li {
+  list-style: none;
+  position: relative;
+}
+.banner .banner__menu ul {
+  display: flex;
+}
+.banner .banner__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner .banner__content__right h2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.banner .banner__content__right button {
+  background-color: #f8b653;
+  padding: 8px 30px;
+  border: none;
+  color: white;
+}
+
+.product {
+  margin-top: 30px;
+}
+.product .product__title h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.product .product__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 120px;
+}
+.product .product__item img {
+  width: 50%;
+  transform: translateX(20px);
+}
+.product .product__item h4 {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+  transform: translateX(20px);
+}
+.product .product__item button {
+  background-color: #e1b067;
+  padding: 8px 40px;
+  border: none;
+}
+.product .product__item button:last-child {
+  background-color: #dedddc;
+  padding: 8px 40px;
+  border: none;
+  transform: translateX(-10px);
+  font-weight: bold;
+  margin-bottom: 200px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #dedddc;
+  font-size: 20px;
+}/*# sourceMappingURL=index.css.map */
